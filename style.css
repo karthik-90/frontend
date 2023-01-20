@@ -1,0 +1,312 @@
+section.pricing {
+    background: #d7d8da;
+    background: linear-gradient(to right, #ffffff, #ffffff);
+  }
+  h3{
+    font-size: 10px;
+    
+    text-align: center;
+  }
+  h1{
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  h2{
+    font-size: 10px;
+  }
+  .p{
+    text-align: right;
+    margin-top: -10px;
+  }
+  .asd{
+    line-height: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .pricing .card {
+    border: none;
+    border-radius: 1rem;
+    transition: all 0.2s;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  }
+  .kq{
+    border: none;
+    border-top: 1px dotted #f00;
+    color: #fff;
+    background-color: #fff;
+    height: 1px;
+    width: 10%;
+   
+  }
+  
+  
+  .pricing hr {
+    margin: 1.5rem 0;
+  }
+  
+  .pricing .card-title {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+  }
+  
+  .pricing .card-price {
+    font-size: 6rem;
+    margin: 0;
+    color: blue;
+  }
+  
+  .pricing .card-price .period {
+    font-size: 0.8rem;
+  }
+  .pricing .card-price .per {
+    font-size: 0.8rem;
+    text-align: center;
+    
+    padding: 12px;
+    
+
+  }
+  h4{
+    align-items: center;
+    font-size: 12px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  h4:before{
+    background-color: black;
+    display: block;
+    width: 125px;
+    height: 2px;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    opacity: 0.3;
+   
+
+  }
+  
+  h4:after{
+    background-color: black;
+    display: block;
+    width: 125px;
+    height: 2px;
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    opacity: 0.3;
+   
+
+  }
+  
+ 
+ 
+  .pricing ul li {
+    margin-bottom: 1rem;
+    
+  }
+  
+  .pricing .text-muted {
+    opacity: 0.7;
+  }
+  
+  .pricing .btn {
+    font-size: 80%;
+    border-radius: 5rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+    opacity: 0.7;
+    transition: all 0.2s;
+  }
+  .pl{
+    text-align: right;
+    margin-top: -25px;
+  }
+  .right{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    opacity: 0.4;
+  }
+  .mid{
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin-top: -30px;
+    text-decoration: none;
+    font-size: 20px;
+    font-style: italic;
+
+  }
+  .cor{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -20px;
+    padding-right: 50px;
+    text-decoration: none;
+    color: black;
+
+   
+    
+    
+  }
+  .cor:hover{
+    color: blue;
+    transition: 0.5s;
+  }
+  .cord{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -15px;
+    padding-right: 20px;
+    text-decoration: none;
+    color: black;
+
+   
+    
+    
+  }
+  .cord:hover{
+    color: blue;
+    transition: 0.5s;
+  }
+  .text-block {
+    position: absolute;
+    margin-top: -90%;
+    margin-left: 500px;
+  }
+  .head{
+    text-align: center;
+    font-size: 40px;
+    justify-content: center;
+    
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  }
+  .rectangle {
+    margin-top: -80%;
+}
+.date{
+    width: 250px;
+    height: 80px;
+    margin-left: 150px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 20px;
+}
+.l{
+    font-size: 12px;
+    text-align: end;
+    margin-top: -37px;
+   padding-right: 50px;
+}
+.start{
+    text-align: start;
+    opacity: 0.4;
+    margin-top: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.icon{
+    margin-right: -150px;
+    margin: 0px;
+    padding: 0px;
+    padding-top: -90px;
+    border-radius: 10px;
+   
+    
+}
+.vcard{
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    box-shadow: 2rem #000;
+    box-shadow: #000;
+    padding-right: 20px;
+   margin-top: -90px;
+  
+
+}
+#preloader{
+    background: #fff url(lo/1amw.gif)  no-repeat center center;
+    height: 450px;
+    width: 15rem;
+    width: 100%;
+    background-size: 500px;
+    position: fixed;
+    z-index: 100;
+
+}
+img{
+    border: 10px solid #d7d8da;
+    
+}
+.lp{
+    display: none;
+}
+.cardk{
+   animation: run 4s ease-in;
+   border-radius: 20px;
+   background-color: #fff;
+}
+
+@keyframes run{
+    0%{
+        transform: skewX(0deg) translateX(-100px);
+    }
+    100%{
+        transform: skew(0deg);
+    }
+}
+.to{
+  margin-left: 1100px;
+  margin-top: 10px;
+ 
+}
+.project{
+    width: 90%;
+    margin-left: 80px;
+    border: 20px;
+
+   
+}
+
+.o{
+    width: 180px;
+    height: 60px;
+    border: none;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+   
+
+}
+.ju{
+    font-size: 30px;
+    margin-top: 0px;
+}
+
+  
+  
+ 
+  
+  
+  /* Hover Effects on Card */
+  
+  @media (min-width: 992px) {
+    .pricing .card:hover {
+      margin-top: -.25rem;
+      margin-bottom: .25rem;
+      box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+    }
+  
+    .pricing .card:hover .btn {
+      opacity: 1;
+    }
+    
+  }
